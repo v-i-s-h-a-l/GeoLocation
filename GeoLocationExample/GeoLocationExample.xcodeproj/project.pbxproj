@@ -12,6 +12,9 @@
 		C92147351C353DB20037CF26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92147331C353DB20037CF26 /* Main.storyboard */; };
 		C92147371C353DB20037CF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92147361C353DB20037CF26 /* Assets.xcassets */; };
 		C921473A1C353DB20037CF26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92147381C353DB20037CF26 /* LaunchScreen.storyboard */; };
+		C92147431C353E310037CF26 /* GeoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92147421C353E310037CF26 /* GeoLocation.swift */; };
+		C92147451C353E6B0037CF26 /* LocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92147441C353E6B0037CF26 /* LocationAnnotation.swift */; };
+		C92147471C353E740037CF26 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92147461C353E740037CF26 /* VCMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		C92147361C353DB20037CF26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C92147391C353DB20037CF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C921473B1C353DB20037CF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92147421C353E310037CF26 /* GeoLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoLocation.swift; sourceTree = "<group>"; };
+		C92147441C353E6B0037CF26 /* LocationAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAnnotation.swift; sourceTree = "<group>"; };
+		C92147461C353E740037CF26 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		C921472E1C353DB20037CF26 /* GeoLocationExample */ = {
 			isa = PBXGroup;
 			children = (
+				C92147441C353E6B0037CF26 /* LocationAnnotation.swift */,
+				C92147461C353E740037CF26 /* VCMapView.swift */,
+				C92147411C353E160037CF26 /* GeoLocation */,
 				C921472F1C353DB20037CF26 /* AppDelegate.swift */,
 				C92147311C353DB20037CF26 /* ViewController.swift */,
 				C92147331C353DB20037CF26 /* Main.storyboard */,
@@ -62,6 +71,14 @@
 				C921473B1C353DB20037CF26 /* Info.plist */,
 			);
 			path = GeoLocationExample;
+			sourceTree = "<group>";
+		};
+		C92147411C353E160037CF26 /* GeoLocation */ = {
+			isa = PBXGroup;
+			children = (
+				C92147421C353E310037CF26 /* GeoLocation.swift */,
+			);
+			name = GeoLocation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92147431C353E310037CF26 /* GeoLocation.swift in Sources */,
 				C92147321C353DB20037CF26 /* ViewController.swift in Sources */,
+				C92147471C353E740037CF26 /* VCMapView.swift in Sources */,
 				C92147301C353DB20037CF26 /* AppDelegate.swift in Sources */,
+				C92147451C353E6B0037CF26 /* LocationAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
